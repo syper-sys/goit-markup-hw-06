@@ -1151,6 +1151,10 @@ button{
         gap: 24px;
     }
 
+    .footer-form-input{
+        width: 264px;
+    }
+
     .footer-form-button{
         margin: 0;
     }
