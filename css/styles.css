@@ -555,13 +555,23 @@ button{
     padding: 96px 0;
 }
 
+.container-features{
+    max-width: 767px;
+}
+
 .section-features-list{
+    width: 100%;
     display: flex;
     flex-direction: column;
     gap: 72px;
     align-items: center;
     flex-direction: column;
     text-align: center;
+}
+
+.section-features-item{
+    max-width: 767px;
+    width: 100%;
 }
 
 .section-features-icon{
