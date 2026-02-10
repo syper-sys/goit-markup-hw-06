@@ -479,14 +479,13 @@ button{
 @media (min-resolution: 2x) {
     .main-section {
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_mobile_x2.jpg);
-        
     }
 }
 
 
 @media screen and (min-width: 768px) {
     .main-section {
-        max-width: 1157px;
+        max-width: 768px;
         height: 436px;
         padding: 112px 0;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office_tablet.jpg);
@@ -518,7 +517,7 @@ button{
     .main-section {
         background-color: #2e2f42;
         padding: 188px 0;
-        max-width: 1158px;
+        max-width: 1440px;
         height: 600px;
         text-align: center;
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
@@ -1034,7 +1033,8 @@ button{
 
 .form-subscribe{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     text-align: center;
     gap: 16px;
 }
@@ -1046,6 +1046,7 @@ button{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #fff;
+    margin: 0 auto;
 }
 
 .footer-form{
@@ -1059,7 +1060,7 @@ button{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 16px;
+    gap: 24px;
 }
 
 .footer-form-input{
@@ -1234,7 +1235,7 @@ button{
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 288px;
+    max-width: 408px;
     min-height: 623px;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background-color: #fcfcfc;
@@ -1278,11 +1279,10 @@ button{
 }
 
 .overlay-field{
-    margin-bottom: 8px;
 }
 
 .overlay-check-container{
-    padding-top: 8px;
+    padding-top: 16px;
 }
 
 .overlay-label{
@@ -1334,7 +1334,7 @@ button{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    left: 19px;
+    left: 16px;
 }
 
 
