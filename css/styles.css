@@ -1316,6 +1316,12 @@ button{
     margin-bottom: 16px;
 }
 
+.container-overlay-form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
 .overlay-input{
     display: block;
     border: 1px solid rgba(46, 47, 66, 0.4);
